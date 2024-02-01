@@ -41,7 +41,6 @@ public class BishopBlack implements Figure {
         return steps;
     }
 
-
     public boolean isDiagonal(Cell source, Cell dest) {
             int deltaX = Math.abs(dest.getX() - source.getX());
             int deltaY = Math.abs(dest.getY() - source.getY());
